@@ -1,0 +1,706 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/administrator/ontologies/2025/1/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/administrator/ontologies/2025/1/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.semanticweb.org/administrator/ontologies/2025/1/untitled-ontology-2/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Film"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProductionStudios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReleaseYear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Runtime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StreamingPlatform"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_been_released_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_genre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_distribuited_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_realized_by"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#imdb_score"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#platform"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#runtime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#subscription_cost"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#title"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tmdb_score"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amazon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amazon_studios"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amblin_Entertainement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Attack"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chehre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DeLine_Pictures"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Doors"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Film_Rites"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hbo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hondo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hulu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kombu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lost_in_the_Stratosphere"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Midnight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Netflix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Netflix_Studios"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RainMaker_Entertainement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#action"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#adventure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#christmas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#comedy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#crime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#documentary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#drama"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fantasy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#horror"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#romance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#science"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#scifi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#thriller"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#war"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#western"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#107"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#111"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#139"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1934"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1953"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1956"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#20th_Century_Fox"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2020"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2021"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#64"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#76"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#84"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Disney+"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#StreamingPlatform"/>
+        <NamedIndividual IRI="#Amazon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProductionStudios"/>
+        <NamedIndividual IRI="#Amazon_studios"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProductionStudios"/>
+        <NamedIndividual IRI="#Amblin_Entertainement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Film"/>
+        <NamedIndividual IRI="#Attack"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Film"/>
+        <NamedIndividual IRI="#Chehre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProductionStudios"/>
+        <NamedIndividual IRI="#DeLine_Pictures"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Film"/>
+        <NamedIndividual IRI="#Doors"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProductionStudios"/>
+        <NamedIndividual IRI="#Film_Rites"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StreamingPlatform"/>
+        <NamedIndividual IRI="#Hbo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StreamingPlatform"/>
+        <NamedIndividual IRI="#Hulu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Film"/>
+        <NamedIndividual IRI="#Kombu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Film"/>
+        <NamedIndividual IRI="#Lost_in_the_Stratosphere"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Film"/>
+        <NamedIndividual IRI="#Midnight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StreamingPlatform"/>
+        <NamedIndividual IRI="#Netflix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProductionStudios"/>
+        <NamedIndividual IRI="#Netflix_Studios"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProductionStudios"/>
+        <NamedIndividual IRI="#RainMaker_Entertainement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#action"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#adventure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#christmas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#comedy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#crime"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#documentary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#drama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#fantasy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#horror"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#romance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#science"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#scifi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#thriller"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#war"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#western"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Runtime"/>
+        <NamedIndividual IRI="#107"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Runtime"/>
+        <NamedIndividual IRI="#111"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Runtime"/>
+        <NamedIndividual IRI="#139"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ReleaseYear"/>
+        <NamedIndividual IRI="#1934"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ReleaseYear"/>
+        <NamedIndividual IRI="#1953"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ReleaseYear"/>
+        <NamedIndividual IRI="#1956"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProductionStudios"/>
+        <NamedIndividual IRI="#20th_Century_Fox"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ReleaseYear"/>
+        <NamedIndividual IRI="#2020"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ReleaseYear"/>
+        <NamedIndividual IRI="#2021"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Runtime"/>
+        <NamedIndividual IRI="#64"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Runtime"/>
+        <NamedIndividual IRI="#76"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Runtime"/>
+        <NamedIndividual IRI="#84"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StreamingPlatform"/>
+        <NamedIndividual IRI="#Disney+"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_been_released_in"/>
+        <NamedIndividual IRI="#Attack"/>
+        <NamedIndividual IRI="#1956"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Attack"/>
+        <NamedIndividual IRI="#drama"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_distribuited_by"/>
+        <NamedIndividual IRI="#Attack"/>
+        <NamedIndividual IRI="#Amazon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_been_released_in"/>
+        <NamedIndividual IRI="#Chehre"/>
+        <NamedIndividual IRI="#2021"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Chehre"/>
+        <NamedIndividual IRI="#thriller"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_distribuited_by"/>
+        <NamedIndividual IRI="#Chehre"/>
+        <NamedIndividual IRI="#Amazon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_been_released_in"/>
+        <NamedIndividual IRI="#Doors"/>
+        <NamedIndividual IRI="#2021"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Doors"/>
+        <NamedIndividual IRI="#drama"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_distribuited_by"/>
+        <NamedIndividual IRI="#Doors"/>
+        <NamedIndividual IRI="#Amazon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_been_released_in"/>
+        <NamedIndividual IRI="#Kombu"/>
+        <NamedIndividual IRI="#2020"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Kombu"/>
+        <NamedIndividual IRI="#thriller"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_distribuited_by"/>
+        <NamedIndividual IRI="#Kombu"/>
+        <NamedIndividual IRI="#Amazon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_been_released_in"/>
+        <NamedIndividual IRI="#Lost_in_the_Stratosphere"/>
+        <NamedIndividual IRI="#1934"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Lost_in_the_Stratosphere"/>
+        <NamedIndividual IRI="#comedy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_distribuited_by"/>
+        <NamedIndividual IRI="#Lost_in_the_Stratosphere"/>
+        <NamedIndividual IRI="#Amazon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_been_released_in"/>
+        <NamedIndividual IRI="#Midnight"/>
+        <NamedIndividual IRI="#1934"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Midnight"/>
+        <NamedIndividual IRI="#crime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_distribuited_by"/>
+        <NamedIndividual IRI="#Midnight"/>
+        <NamedIndividual IRI="#Amazon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#comedy"/>
+        <NamedIndividual IRI="#crime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#comedy"/>
+        <NamedIndividual IRI="#drama"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#comedy"/>
+        <NamedIndividual IRI="#romance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#drama"/>
+        <NamedIndividual IRI="#scifi"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Attack"/>
+        <Literal>Battle of the Bulge, World War II, 1944. Lieutenant Costa, an infantry company officer who must establish artillery observation posts in a strategic area, has serious doubts about Captain Cooney&apos;s leadership ability</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#imdb_score"/>
+        <NamedIndividual IRI="#Attack"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#platform"/>
+        <NamedIndividual IRI="#Attack"/>
+        <Literal>amazon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runtime"/>
+        <NamedIndividual IRI="#Attack"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">107</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#subscription_cost"/>
+        <NamedIndividual IRI="#Attack"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">14.99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Attack"/>
+        <Literal>Attack</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tmdb_score"/>
+        <NamedIndividual IRI="#Attack"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Chehre"/>
+        <Literal>&quot;An ad agency executive takes shelter at an old man&apos;s home in mountains amid a dangerous snow storm, but soon finds himself trapped with no way out when the man and his clan of veterans hook him for a game of crime and punishment.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#imdb_score"/>
+        <NamedIndividual IRI="#Chehre"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#platform"/>
+        <NamedIndividual IRI="#Chehre"/>
+        <Literal>amazon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runtime"/>
+        <NamedIndividual IRI="#Chehre"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">139</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#subscription_cost"/>
+        <NamedIndividual IRI="#Chehre"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">14.99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Chehre"/>
+        <Literal>Chehre</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tmdb_score"/>
+        <NamedIndividual IRI="#Chehre"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Doors"/>
+        <Literal>Without warning, millions of mysterious alien “doors” suddenly appear around the globe. In a rush to determine the reason for their arrival, mankind must work together to understand the purpose of these cosmic anomalies.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#imdb_score"/>
+        <NamedIndividual IRI="#Doors"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#platform"/>
+        <NamedIndividual IRI="#Doors"/>
+        <Literal>amazon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runtime"/>
+        <NamedIndividual IRI="#Doors"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">84</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#subscription_cost"/>
+        <NamedIndividual IRI="#Doors"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">14.99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Doors"/>
+        <Literal>Chehre</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tmdb_score"/>
+        <NamedIndividual IRI="#Doors"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Kombu"/>
+        <Literal>When a group of people venture into a haunted house, paranormal activity unfolds and evil is unleashed from deep within.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#imdb_score"/>
+        <NamedIndividual IRI="#Kombu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#platform"/>
+        <NamedIndividual IRI="#Kombu"/>
+        <Literal>amazon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runtime"/>
+        <NamedIndividual IRI="#Kombu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">111</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#subscription_cost"/>
+        <NamedIndividual IRI="#Kombu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">14.99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Kombu"/>
+        <Literal>Kombu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tmdb_score"/>
+        <NamedIndividual IRI="#Kombu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Lost_in_the_Stratosphere"/>
+        <Literal>Two military pilots are close friends, and share in a lot of hazardous missions while engaging in a series of good-natured romantic rivalries. But when one of the pilots loses a girl he really cared for, he cannot forgive his friend. Soon afterwards, they must work together on their most dangerous mission yet</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#imdb_score"/>
+        <NamedIndividual IRI="#Lost_in_the_Stratosphere"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#platform"/>
+        <NamedIndividual IRI="#Lost_in_the_Stratosphere"/>
+        <Literal>amazon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runtime"/>
+        <NamedIndividual IRI="#Lost_in_the_Stratosphere"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">64</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#subscription_cost"/>
+        <NamedIndividual IRI="#Lost_in_the_Stratosphere"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">14.99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Lost_in_the_Stratosphere"/>
+        <Literal>Lost in the Stratosphere</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tmdb_score"/>
+        <NamedIndividual IRI="#Lost_in_the_Stratosphere"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Midnight"/>
+        <Literal>Jury foreman Edward Weldon&apos;s questioning leads to the death sentence for Ethel Saxon. His daughter Stella claims to have killed her lover, the gangster Garboni, just as Saxon was to sit in the electric chair.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#imdb_score"/>
+        <NamedIndividual IRI="#Midnight"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#platform"/>
+        <NamedIndividual IRI="#Midnight"/>
+        <Literal>amazon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runtime"/>
+        <NamedIndividual IRI="#Midnight"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">76</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#subscription_cost"/>
+        <NamedIndividual IRI="#Midnight"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">14.99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Midnight"/>
+        <Literal>Midnight</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tmdb_score"/>
+        <NamedIndividual IRI="#Midnight"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyRange>
+        <DataProperty IRI="#runtime"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
